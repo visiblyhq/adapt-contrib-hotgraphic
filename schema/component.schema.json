@@ -111,7 +111,7 @@
           "type": "boolean",
           "title": "Replace with Narrative component on mobile",
           "description": "If disabled, the Hotgraphic will render a scaled down 'desktop' version (pins over image / tiles) of the component in 'mobile' view instead of being replaced by a Narrative interaction",
-          "default": true
+          "default": false
         },
         "_useNumberedPins": {
           "type": "boolean",

@@ -1,10 +1,13 @@
 .hotgraphic-popup {
   position: relative;
+  background-color: white !important;
+  color: black !important;
 
   // Pop up toolbar
   // --------------------------------------------------
   &__inner {
     padding-top: @icon-size + (@icon-padding * 2);
+    background-color: transparent !important;
   }
 
   &__toolbar {
@@ -30,6 +33,7 @@
   &__count {
     padding: @icon-padding;
     line-height: 1;
+    color: black !important;
   }
 
   // Pop up item
@@ -69,6 +73,10 @@
 
   &__controls.next .icon {
     .icon-controls-small-right;
+  }
+
+  &__close {
+    background-color: #02D2A0 !important;
   }
 
   &__close .icon {
