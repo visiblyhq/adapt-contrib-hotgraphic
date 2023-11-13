@@ -158,7 +158,7 @@
     "_isNarrativeOnMobile": {
       "type": "boolean",
       "required": true,
-      "default": true,
+      "default": false,
       "title": "Render as Narrative on mobile?",
       "inputType": "Checkbox",
       "validators": [],
@@ -185,7 +185,7 @@
     "_isRound": {
       "type": "boolean",
       "required": false,
-      "default": false,
+      "default": true,
       "title": "Should item image be round?",
       "inputType": "Checkbox",
       "validators": [],

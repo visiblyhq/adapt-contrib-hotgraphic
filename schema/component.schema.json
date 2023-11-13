@@ -85,6 +85,16 @@
           },
           "_backboneForms": "TextArea"
         },
+        "_aspectRatio": {
+          "type": "string",
+          "title": "Aspect ratio",
+          "description": "",
+          "default": "portrait",
+          "_adapt": {
+            "translatable": true
+          },
+          "_backboneForms": "TextArea"
+        },
         "mobileInstruction": {
           "type": "string",
           "title": "Mobile instruction",
@@ -129,7 +139,7 @@
           "type": "boolean",
           "title": "Use circular popup item images",
           "description": "If enabled, a 50% border radius will be applied to the items pop up images",
-          "default": false
+          "default": true
         },
         "_items": {
           "type": "array",

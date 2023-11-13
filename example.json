@@ -17,10 +17,10 @@
         "_setCompletionOn": "allItems",
         "_canCycleThroughPagination": false,
         "_hidePagination": false,
-        "_isNarrativeOnMobile": true,
+        "_isNarrativeOnMobile": false,
         "_useNumberedPins": false,
         "_useGraphicsAsPins": false,
-        "_isRound": false,
+        "_isRound": true,
         "_graphic": {
             "src": "course/en/images/example.jpg",
             "alt": "",
